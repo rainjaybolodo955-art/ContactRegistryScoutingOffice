@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Registry Scouting Office</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<header>
+	<nav>
+		<!-- Logo is kept in the navigation header -->
+		<img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=100&auto=format&fit=crop&q=80" class="logo" alt="LOGO">
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Historic Squads</a></li>
+				<li><a href="contact.html" class="active">Contact</a></li>
+				<li><a href="https://www.fiba.basketball" target="_blank" class="external-link">GLOBAL HUB ↗</a></li>
+			</ul>
+			<i class="fas fa-bars" id="menu-btn"></i>
+		</div>
+	</nav>
+	</header>
+
+	<div class="page-header">
+		<h1>Contact Our Archival Office</h1>
+		<p>Connect with historic tracking coordinators, roster managers, and regional scouts.</p>
+	</div>
+
+	<!-- Long form descriptions and structured submission panels -->
+	<div class="contact-container" style="padding: 6vw 8vw;">
+		<div class="contact-info">
+			<h2>Get in Touch</h2>
+			<p style="margin-bottom: 30px;">Have historical statistical corrections, classic player metric adjustments, or archival roster sheets to submit? Reach out directly to our database coordinators. We collaborate with sports historians, veteran coaches, and former players to keep this archive accurate.</p>
+			
+			<div class="contact-detail-box" style="margin-bottom: 25px;">
+				<i class="fas fa-map-marked-alt"></i>
+				<div>
+					<h5>Central Registry Office</h5>
+					<p>Araneta Center, Cubao, Quezon City, Metro Manila, Philippines</p>
+				</div>
+			</div>
+			
+			<div class="contact-detail-box" style="margin-bottom: 25px;">
+				<i class="fas fa-envelope-open-text"></i>
+				<div>
+					<h5>Archival & Editorial Support</h5>
+					<p>scout@pilipinashoopsarchive.org</p>
+				</div>
+			</div>
+
+			<div class="contact-detail-box">
+				<i class="fas fa-phone-alt" style="color: #f1c40f; font-size: 20px;"></i>
+				<div style="margin-left: 15px;">
+					<h5>Media & Research Inquiries</h5>
+					<p>+63 (02) 8123-4567 (Mon-Fri | 9am - 5pm PHT)</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="form" style="box-shadow: none; background: #0b0f19; padding: 40px; border-radius: 8px; border: 1px solid #1e293b;">
+			<h3 style="color: #fff; margin-bottom: 10px;">Scout Roster Submission</h3>
+			<p style="color: #64748b; font-size: 13px; margin-bottom: 20px;">Please supply credible references or primary athletic documentation where possible when reporting stat errors.</p>
+			
+			<input type="text" placeholder="Full Scout / Contributor Name">
+			<input type="email" placeholder="Email Address">
+			<input type="text" placeholder="Subject (e.g., Regional Roster Correction, Historical Inquiry)" style="width: 100%; background-color: #0b0f19; border: 1px solid rgb(21, 21, 100); border-radius:5px; color:#fff; padding:15px; outline:none; margin-bottom:20px;">
+			
+			<textarea placeholder="Write full message, historical player metric adjustment, or primary source citation details here..." rows="6" style="background-color: #0b0f19; border: 1px solid rgb(21, 21, 100); border-radius:5px; color:#fff; padding:15px; outline:none; margin-bottom:20px; width: 100%; box-sizing: border-box;"></textarea>
+			
+			<div class="btn">
+				<a href="#" class="yellow">Submit Verification Request</a>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer-col">
+			<h3>Navigation</h3>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="courses.html">Squads</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</div>
+		<div class="footer-col"><h3>Historic Pipelines</h3><li>MICAA League</li><li>PBL Pools</li></div>
+		<div class="footer-col"><h3>External Portal</h3><li><a href="https://www.fiba.basketball" target="_blank">FIBA Global Hub ↗</a></li></div>
+		<div class="footer-col"><h3>Newsletter</h3><div class="subscribe"><input type="email" placeholder="Your Email"><a href="#" class="yellow">JOIN</a></div></div>
+		<div class="copyright"><p>Copyright @ 2026 | Pilipinas Hoops Multi-Page Hub</p></div>
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){ $('nav .navigation ul').addClass('active') });
+		$('#menu-close').click(function(){ $('nav .navigation ul').removeClass('active') });
+	</script>
+</body>
+</html>

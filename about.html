@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About This Archive - Pilipinas Hoops</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<header>
+	<nav>
+		<!-- Logo is kept in the navigation header -->
+		<img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=100&auto=format&fit=crop&q=80" class="logo" alt="LOGO">
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Historic Squads</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://www.fiba.basketball" target="_blank" class="external-link">GLOBAL HUB ↗</a></li>
+			</ul>
+			<i class="fas fa-bars" id="menu-btn"></i>
+		</div>
+	</nav>
+	</header>
+
+	<div class="page-header">
+		<h1>About Our Mission & Heritage</h1>
+		<p>Preserving generations of classic milestones, developmental pipelines, and the cultural pulse points of Philippine Basketball.</p>
+	</div>
+
+	<!-- Extended Narrative Section -->
+	<section style="padding: 6vw 8vw 2vw 8vw; color: #94a3b8; line-height: 1.8;">
+		<h2 style="color: #fff; margin-bottom: 20px; font-size: 2rem;">The Roots of the Philippine Obsession</h2>
+		<p style="margin-bottom: 20px;">In the Philippines, basketball is far more than a sporting event—it is an inherited cultural cornerstone. From the makeshift wooden hoops nailed to coconut trees in rural barangays to the packed, roaring coliseums of metropolitan Manila, the game serves as a shared language across generations. This registry was founded to ensure that the rich histories, legendary player metrics, and foundational corporate leagues that paved the way for modern Philippine basketball are never forgotten.</p>
+		<p style="margin-bottom: 20px;">Our historical archive meticulously chronicles the evolution of local basketball structures. We analyze how regional grassroots tournaments, collegiate athletic programs, and industrial farm setups historically intersected to create world-class athletes. By documenting the journeys of past icons and active icons alike, we provide sports historians, scouts, and fans with an immutable record of our national passion.</p>
+	</section>
+
+	<section id="features">
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>The National Passion</h3>
+				<p>Tracking the sport's deep cultural penetration from raw amateur community spaces up to major global professional stages.</p>
+			</div>
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Scope of Records</h3>
+				<p>Documenting precise historical player metrics, classic corporate farm leagues, team lineages, and institutional milestones.</p>
+			</div>
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Career Tracking</h3>
+				<p>Traces the active journeys of local icons serving across the NBA, PBA, CESAFI, NCAA, UAAP, or international coaching ranks.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Additional Long-Form Core Values Section -->
+	<section style="padding: 2vw 8vw 6vw 8vw; color: #94a3b8; line-height: 1.8;">
+		<hr style="border: 0; border-top: 1px solid #1e293b; margin-bottom: 50px;">
+		<h3 style="color: #f1c40f; margin-bottom: 15px;">Our Archival Pillars</h3>
+		<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 20px;">
+			<div>
+				<h4 style="color: #fff; margin-bottom: 10px;">1. Historical Integrity</h4>
+				<p style="font-size: 14px;">We corroborate player statistics, tournament score sheets, and roster changes through old newsprint archives and verified athletic records to maintain a precise repository.</p>
+			</div>
+			<div>
+				<h4 style="color: #fff; margin-bottom: 10px;">2. Regional Inclusion</h4>
+				<p style="font-size: 14px;">Our focus stretches beyond Manila. We actively research and document Southern basketball networks, Cebuano dynasties, and Mindanao regional standouts who left an uncredited mark.</p>
+			</div>
+			<div>
+				<h4 style="color: #fff; margin-bottom: 10px;">3. Preserving the Pipeline</h4>
+				<p style="font-size: 14px;">By showcasing the historical connection between corporate farm systems and collegiate developments, we educate the public on how elite athletes are structured.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer-col">
+			<h3>Navigation</h3>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="courses.html">Squads</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</div>
+		<div class="footer-col">
+			<h3>Historic Pipelines</h3>
+			<li>MICAA League</li>
+			<li>PBL Tournament Pools</li>
+		</div>
+		<div class="footer-col">
+			<h3>External Portal</h3>
+			<li><a href="https://www.fiba.basketball" target="_blank">FIBA Global Hub ↗</a></li>
+		</div>
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<div class="subscribe">
+				<input type="email" placeholder="Your Email"><a href="#" class="yellow">JOIN</a>
+			</div>
+		</div>
+		<div class="copyright"><p>Copyright @ 2026 | Pilipinas Hoops Multi-Page Hub</p></div>
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){ $('nav .navigation ul').addClass('active') });
+		$('#menu-close').click(function(){ $('nav .navigation ul').removeClass('active') });
+	</script>
+</body>
+</html>

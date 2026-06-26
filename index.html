@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pilipinas Hoops - Historical Registry</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<header>
+	<nav>
+		<!-- Only the Logo image is left untouched in the navbar -->
+		<img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=100&auto=format&fit=crop&q=80" class="logo" alt="LOGO">
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Historic Squads</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://www.fiba.basketball" target="_blank" class="external-link">GLOBAL HUB ↗</a></li>
+			</ul>
+			<i class="fas fa-bars" id="menu-btn"></i>
+		</div>
+	</nav>
+	</header>
+
+	<!-- Main Home Banner - Photo added back ONLY as a background with a dark overlay blend -->
+	<section id="home" style="background: linear-gradient(rgba(7, 10, 19, 0.9), rgba(3, 7, 18, 0.95)), url('https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1600&auto=format&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+		<h2>The Definitive Historical Philippine Basketball Registry</h2>
+		<p>Preserving generations of sports heritage, regional basketball lineages, industrial farm systems, and legendary roster data from the streets to the coliseums.</p>
+		<div class="btn">
+			<a href="about.html" class="blue">Learn Our Mission</a>
+			<a href="courses.html" class="yellow">Explore Squad Registries</a>
+		</div>
+	</section>
+
+	<!-- Long-Form Contextual Introduction Section -->
+	<section style="padding: 6vw 8vw 2vw 8vw; color: #94a3b8; line-height: 1.8;">
+		<h2 style="color: #fff; font-size: 2.2rem; margin-bottom: 20px;">Preserving the Heritage of a Basketball Nation</h2>
+		<p style="margin-bottom: 15px;">Basketball in the Philippines is an intricately woven tapestry of localized passion, industrial pipeline development, and community pride. What began as an early 20th-century institutional inclusion has evolved into the definitive heartbeat of national sports culture. Every neighborhood across the archipelago holds a story of a legendary playground game, a homegrown regional icon, or a collegiate dynasty that reshaped local playstyles.</p>
+		<p style="margin-bottom: 15px;">This registry serves as a comprehensive digital storehouse dedicated to charting those exact narratives. We bridge the gap between historical print archives and modern tracking systems, offering enthusiasts a structured space to examine player trajectories, corporate farm league structures, and regional basketball movements that historically formed the blueprint of the Philippine game.</p>
+	</section>
+
+	<section id="features">
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Scholastic & Collegiate Records</h3>
+				<p>Tracking the rich athletic timelines of the NCAA, UAAP, and CESAFI leagues from their foundational roots up to the modern era.</p>
+			</div>
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Industrial & Corporate Lines</h3>
+				<p>Deep analytical profiles on the vintage MICAA tournaments and commercial farm divisions that molded early premier talent pools.</p>
+			</div>
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Regional Hub Tracking</h3>
+				<p>Shedding light on powerhouse networks outside the capital, with a dedicated focus on Cebuano traditions and Southern Mindanao circuits.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Deep-Dive Archival Overview Segment -->
+	<section style="padding: 4vw 8vw 6vw 8vw; color: #94a3b8; line-height: 1.8;">
+		<hr style="border: 0; border-top: 1px solid #1e293b; margin-bottom: 50px;">
+		<h3 style="color: #f1c40f; margin-bottom: 15px; font-size: 1.5rem;">Why Documenting This History Matters</h3>
+		<p style="margin-bottom: 15px;">Without a centralized historical registry, many monumental contributions within regional basketball programs run the risk of becoming obscured by time. Legendary matchups within provincial athletic meets, individual statistical anomalies from industrial corporate teams, and the distinct developmental coaching blueprints that emphasize speed, pressure-defense, and high-IQ ball distribution deserve permanent records.</p>
+		<p>Our ongoing archival work compiles statistical cross-references, structural accounts from seasoned sports journalists, and primary source documents to build an analytical narrative. Whether you are investigating the tactical schemes of historical collegiate regimes or analyzing the structural pipeline that transforms raw community athletes into global professionals, our records are tailored to provide deep, concrete insights.</p>
+	</section>
+
+	<footer>
+		<div class="footer-col">
+			<h3>Navigation</h3>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="courses.html">Squads</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</div>
+		<div class="footer-col">
+			<h3>Historic Pipelines</h3>
+			<li>MICAA League</li>
+			<li>PBL Tournament Pools</li>
+		</div>
+		<div class="footer-col">
+			<h3>External Portal</h3>
+			<li><a href="https://www.fiba.basketball" target="_blank">FIBA Global Hub ↗</a></li>
+		</div>
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<div class="subscribe">
+				<input type="email" placeholder="Your Email"><a href="#" class="yellow">JOIN</a>
+			</div>
+		</div>
+		<div class="copyright"><p>Copyright @ 2026 | Pilipinas Hoops Multi-Page Hub</p></div>
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){ $('nav .navigation ul').addClass('active') });
+		$('#menu-close').click(function(){ $('nav .navigation ul').removeClass('active') });
+	</script>
+</body>
+</html>
